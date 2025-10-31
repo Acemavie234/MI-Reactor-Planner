@@ -70,7 +70,7 @@ NuclearComponent.register(
 NuclearComponent.register(
   new FluidNuclearComponent(
     Fluids.HIGH_PRESSURE_WATER,
-    10,
+    0.2,
     4,
     NuclearConstant.ScatteringType.ULTRA_LIGHT,
     NuclearConstant.HYDROGEN,
