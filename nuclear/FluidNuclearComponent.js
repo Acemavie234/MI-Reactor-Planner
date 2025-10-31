@@ -46,7 +46,7 @@ class FluidNuclearComponent extends INuclearComponent {
 NuclearComponent.register(
   new FluidNuclearComponent(
     Fluids.WATER,
-    NuclearConstant.BASE_HEAT_CONDUCTION * 5,
+    10,
     1,
     NuclearConstant.ScatteringType.ULTRA_LIGHT,
     NuclearConstant.HYDROGEN,
