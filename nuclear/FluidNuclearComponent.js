@@ -82,7 +82,7 @@ NuclearComponent.register(
 NuclearComponent.register(
   new FluidNuclearComponent(
     Fluids.HIGH_PRESSURE_HEAVY_WATER,
-    NuclearConstant.BASE_HEAT_CONDUCTION * 6,
+    0.24,
     4,
     NuclearConstant.ScatteringType.LIGHT,
     NuclearConstant.DEUTERIUM,
